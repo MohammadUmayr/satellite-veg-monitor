@@ -76,8 +76,8 @@ python -m pytest tests/
 
 ## 👥 Contributors
 
-- [Your Name] - Module 1 & 2
-- [Teammate Name] - Module 3 & 4
+- Ola Elwasila - Module 1 & 2
+- Mohmmad Umayr Romshoo - Module 3 & 4
 
 ## 📄 License
 
