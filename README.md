@@ -1,8 +1,8 @@
-# 🛰️ Satellite Vegetation Monitor
+# Satellite Vegetation Monitor
 
 Python library for satellite-based vegetation monitoring and temporal change detection using Landsat and Sentinel-2 imagery.
 
-## 📋 Features
+## Features
 
 - **Data Loading**: Load and preprocess Landsat 8/9 and Sentinel-2 imagery
 - **Atmospheric Correction**: Apply DOS (Dark Object Subtraction) and TOA corrections
@@ -10,7 +10,7 @@ Python library for satellite-based vegetation monitoring and temporal change det
 - **Change Detection**: Analyze vegetation changes between two time periods
 - **Change Classification**: Classify change severity with multiple thresholds
 
-## 🚀 Installation
+## Installation
 ```bash
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/satellite-veg-monitor.git
@@ -20,7 +20,7 @@ cd satellite-veg-monitor
 pip install -r requirements.txt
 ```
 
-## 📖 Quick Start
+## Quick Start
 
 ### Single Date Analysis
 ```python
@@ -55,7 +55,7 @@ changes = change_detector.analyze_all_indices_change(indices_2020, indices_2024)
 classifications = change_classifier.classify_all_changes(changes)
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 satellite-veg-monitor/
 ├── satellite_veg_monitor/     # Main package
@@ -69,24 +69,24 @@ satellite-veg-monitor/
 └── docs/                      # Documentation
 ```
 
-## 🧪 Testing
+## Testing
 ```bash
 python -m pytest tests/
 ```
 
-## 👥 Contributors
+## Contributors
 
 - Ola Elwasila - Module 1 & 2
 - Mohmmad Umayr Romshoo - Module 3 & 4
 
-## 📄 License
+## License
 
 MIT License
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This project was developed as part of the Geospatial Processing course at Politecnico di Milano.
 
-## 📧 Contact
+## Contact
 
 For questions or suggestions, please open an issue on GitHub.
